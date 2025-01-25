@@ -1,0 +1,24 @@
+{
+    "name": "tiagolopes/ab-filmes",
+    "description": "Projeto de gerenciador de filmes. Desafio prático da Formação de PHP da Rocketseat",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tiagolopes\\AbFilmes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Lopes",
+            "email": "tiagoltavares2002@gmail.com"
+        }
+    ],
+    "scripts": {
+        "dev": "php -S localhost:3333 -t ./public"
+    },
+    "require": {
+        "php": ">=8.3",
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*"
+    }
+}
